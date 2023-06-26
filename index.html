@@ -4,36 +4,143 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Portafolio Personal</title>
-  <link rel="stylesheet" href="styles.css">
+  <style>
+    /* Estilos generales */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f7f7f7;
+      color: #333;
+    }
+
+    h1, h2 {
+      color: #333;
+    }
+
+    /* Estilos de encabezado */
+    header {
+      background-color: #333;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+
+    /* Estilos de secciones */
+    section {
+      margin: 20px;
+    }
+
+    section h2 {
+      font-size: 24px;
+      margin-bottom: 10px;
+    }
+
+    .gray {
+      background-color: #f2f2f2;
+    }
+
+    .blue {
+      background-color: #007bff;
+      color: #fff;
+    }
+
+    .green {
+      background-color: #28a745;
+      color: #fff;
+    }
+
+    .yellow {
+      background-color: #ffc107;
+      color: #333;
+    }
+
+    .achievement {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      margin-bottom: 40px;
+    }
+
+    .achievement img {
+      max-width: 400px;
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      border-radius: 8px;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+      margin-bottom: 20px;
+    }
+
+    .achievement p {
+      font-size: 16px;
+      line-height: 1.6;
+    }
+
+    /* Estilos de enlaces */
+    a {
+      color: #007bff;
+      text-decoration: none;
+      transition: color 0.3s ease;
+    }
+
+    a:hover {
+      color: #0056b3;
+    }
+
+    /* Estilos de pie de página */
+    footer {
+      background-color: #333;
+      color: #fff;
+      padding: 10px;
+      text-align: center;
+    }
+  </style>
 </head>
 <body>
   <header>
     <h1>Mi Portafolio Personal</h1>
   </header>
   
-  <section>
+  <section class="gray">
     <h2>Experiencia en el Sistema SAP</h2>
-    <p>He trabajado en implementaciones exitosas del sistema SAP en Brasil y Bolivia. Durante estos proyectos, fui responsable de la configuración y personalización del sistema, asegurando una integración fluida con los procesos empresariales existentes.</p>
+    <div class="achievement">
+      <img src="https://images.unsplash.com/photo-1525547719571-a2d4ac8945e2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8Y29tcHV0YWRvcmElMjBwb3J0YXRpbHxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60" alt="Computadora Portátil">
+      <p>He trabajado en implementaciones exitosas del sistema SAP en Brasil y Bolivia. Durante estos proyectos, fui responsable de la configuración y personalización del sistema, asegurando una integración fluida con los procesos empresariales existentes.</p>
+    </div>
   </section>
   
-  <section>
+  <section class="blue">
     <h2>Conocimiento de Ofimática Avanzada</h2>
-    <p>Poseo un amplio dominio de las herramientas de ofimática, como Microsoft Office (Word, Excel, PowerPoint) y Google Suite. He utilizado estas herramientas para crear informes detallados, presentaciones efectivas y documentos profesionales.</p>
+    <div class="achievement">
+      <img src="https://images.unsplash.com/photo-1525547719571-a2d4ac8945e2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8Y29tcHV0YWRvcmElMjBwb3J0YXRpbHxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60" alt="Computadora Portátil">
+      <p>Poseo un amplio dominio de las herramientas de ofimática, como Microsoft Office (Word, Excel, PowerPoint) y Google Suite. He utilizado estas herramientas para crear informes detallados, presentaciones efectivas y documentos profesionales.</p>
+    </div>
   </section>
   
-  <section>
+  <section class="green">
     <h2>Elaboración de Sistemas de Control Presupuestario</h2>
-    <p>He desarrollado sistemas de control presupuestario que permiten un seguimiento preciso de los gastos y la optimización de los recursos financieros. Estos sistemas han ayudado a las organizaciones a mantener un control efectivo de sus presupuestos y a tomar decisiones informadas.</p>
+    <div class="achievement">
+      <img src="https://images.unsplash.com/photo-1525547719571-a2d4ac8945e2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8Y29tcHV0YWRvcmElMjBwb3J0YXRpbHxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60" alt="Computadora Portátil">
+      <p>He desarrollado sistemas de control presupuestario que permiten un seguimiento preciso de los gastos y la optimización de los recursos financieros. Estos sistemas han ayudado a las organizaciones a mantener un control efectivo de sus presupuestos y a tomar decisiones informadas.</p>
+    </div>
   </section>
   
-  <section>
+  <section class="yellow">
     <h2>Experiencia en Desarrollo de Modelos de Inteligencia Artificial</h2>
-    <p>Me he especializado en el desarrollo de modelos de inteligencia artificial, utilizando técnicas como el aprendizaje automático y la minería de datos. Estos modelos han permitido a las empresas obtener información valiosa, automatizar procesos y tomar decisiones basadas en datos.</p>
+    <div class="achievement">
+      <img src="https://images.unsplash.com/photo-1525547719571-a2d4ac8945e2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8Y29tcHV0YWRvcmElMjBwb3J0YXRpbHxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60" alt="Computadora Portátil">
+      <p>Me he especializado en el desarrollo de modelos de inteligencia artificial, utilizando técnicas como el aprendizaje automático y la minería de datos. Estos modelos han permitido a las empresas obtener información valiosa, automatizar procesos y tomar decisiones basadas en datos.</p>
+    </div>
   </section>
   
-  <section>
+  <section class="gray">
     <h2>Nivel de Inglés Avanzado</h2>
-    <p>Poseo un nivel avanzado de inglés, lo que me ha permitido comunicarme de manera efectiva con equipos internacionales y participar en proyectos internacionales. Estoy cómodo tanto en la comunicación oral como escrita en inglés.</p>
+    <div class="achievement">
+      <img src="https://images.unsplash.com/photo-1525547719571-a2d4ac8945e2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8Y29tcHV0YWRvcmElMjBwb3J0YXRpbHxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60" alt="Computadora Portátil">
+      <p>Poseo un nivel avanzado de inglés, lo que me ha permitido comunicarme de manera efectiva con equipos internacionales y participar en proyectos internacionales. Estoy cómodo tanto en la comunicación oral como escrita en inglés.</p>
+    </div>
   </section>
   
   <footer>
@@ -41,4 +148,3 @@
   </footer>
 </body>
 </html>
-
